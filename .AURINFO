@@ -1,0 +1,16 @@
+pkgbase = musl-mainline
+	pkgdesc = Lightweight implementation of C standard library
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = http://www.musl-libc.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	optdepends = bash: for musl-gcc
+	provides = musl
+	conflicts = musl
+	source = http://www.musl-libc.org/releases/musl-1.1.4.tar.gz
+	options = staticlibs
+
+pkgname = musl-mainline
+
